@@ -1,0 +1,69 @@
+:root{
+  --black: #000000;
+  --white: #fefefe;
+  --green: #00800d;
+  --red: #be0000;
+  --teal: #00b0cf;
+  --grey: #797979;
+}
+
+
+body {
+  font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    line-height: 1;
+  }
+  
+  textarea{
+    background: transparent;
+    border: dotted 1px;
+    color: var(--black);
+    border-left: 2px solid black;
+    padding: 10px;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    color: var(--black);
+    border-radius: 0;
+    border-bottom: 10px solid black;
+    background-color: var(--white);
+  }
+  
+  .time-block{
+    text-align: center;
+
+  }
+  
+  .row {
+    height: 90px;
+    border-top: 1px solid var(--black);;
+    margin-bottom: 13px;
+  }
+  
+  .hour {
+    background-color: var(--white);
+    color: var(--black);
+    border-top: 1px dashed var(--black);
+  }
+  
+  .past {
+    background-color: var(--grey);
+  }
+  
+  .present {
+    background-color:var(--red);
+  }
+  
+  .future {
+    background-color: var(--green);
+  }
+  
+  .saveBtn {
+    border-left: 1px solid var(--black);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: var(--teal);
+    color: var(--white);
+  }
+  

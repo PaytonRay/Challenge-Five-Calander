@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A work day scheduler to plan out your day!</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div id="container" class="container">
+      <!-- This is the first row -->
+      <div class="row time-block" id="hour1">
+        <div class="col-1 hour">
+          <h6>9AM</h6>
+        </div>
+        <textarea class="col-10 description" id="text1">
+          
+        </textarea>
+        <button class="col-1 saveBtn">
+            <span class="fa-save"></span>
+        </button>
+      </div>
+
+      <div class="row time-block" id="hour2">
+        <div class="col-1 hour">
+          <h6>10AM</h6>
+        </div>
+        <textarea class="col-10 description" id="text2">
+          
+        </textarea>
+        <button type="button" class=" col-1 saveBtn">
+            <span class="fa-save"></span>
+        </button>
+      </div>
+
+      <div class="row time-block" id="hour3">
+        <div class="col-1 hour">
+          <h6>11AM</h6>
+        </div>
+        <textarea class="col-10 description" id="text3">
+          
+        </textarea>
+        <button type="button" class=" col-1 saveBtn">
+            <span class="fa-save"></span>
+        </button>
+      </div>
+
+      <div class="row time-block" id="hour4">
+        <div class="col-1 hour">
+          <h6>12PM</h6>
+        </div>
+        <textarea class="col-10 description" id="text4">
+          
+        </textarea>
+        <button type="button" class=" col-1 saveBtn">
+            <span class="fa-save"></span>
+        </button>
+      </div>
+
+      <div class="row time-block" id="hour5">
+        <div class="col-1 hour">
+          <h6>1PM</h6>
+        </div>
+        <textarea class="col-10 description" id="text5">
+          
+        </textarea>
+        <button type="button" class=" col-1 saveBtn">
+            <span class="fa-save"></span>
+        </button>
+      </div>
+
+      <div class="row time-block" id="hour6">
+        <div class="col-1 hour">
+          <h6>2PM</h6>
+        </div>
+        <textarea class="col-10 description" id="text6">
+          
+        </textarea>
+        <button type="button" class=" col-1 saveBtn">
+            <span class="fa-save"></span>
+        </button>
+      </div>
+
+      <div class="row time-block" id="hour7">
+        <div class="col-1 hour">
+          <h6>3PM</h6>
+        </div>
+        <textarea class="col-10 description" id="text7">
+          
+        </textarea>
+        <button type="button" class=" col-1 saveBtn">
+            <span class="fa-save"></span>
+        </button>
+      </div>
+
+      <div class="row time-block" id="hour8">
+        <div class="col-1 hour">
+          <h6>4PM</h6>
+        </div>
+        <textarea class="col-10 description" id="text8">
+          
+        </textarea>
+        <button type="button" class=" col-1 saveBtn">
+            <span class="fa-save"></span>
+        </button>
+      </div>
+
+      <div class="row time-block" id="hour9">
+        <div class="col-1 hour">
+          <h6>5PM</h6>
+        </div>
+        <textarea class="col-10 description" id="text9">
+          
+        </textarea>
+        <button type="button" class=" col-1 saveBtn">
+            <span class="fa-save"></span>
+        </button>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
